@@ -1,0 +1,28 @@
+KASIR DIGITAL PWA – VERSI PERBAIKAN 1.2
+
+PEMBARUAN VERSI 1.2:
+- Navigasi HP dan tablet diperbaiki: tombol Menu menampilkan seluruh menu, bukan hanya lima menu pertama.
+- Profil Toko kini memiliki menu tersendiri dan tidak lagi tersembunyi di dalam Pengaturan.
+- Seluruh menu admin dapat dibuka dari panel Menu pada HP dan tablet.
+- Dukungan orientasi layar portrait dan landscape untuk tablet.
+- Pembaruan service worker/cache agar versi aplikasi terbaru lebih cepat diterapkan.
+
+LOGIN AWAL:
+Username: admin
+Password: admin123
+Segera ubah password admin setelah masuk.
+
+INSTALASI / PEMBARUAN ANDROID:
+1. Unggah dan ganti SEMUA file dari paket versi 1.2 ke repository GitHub Pages, termasuk index.html, sw.js, manifest.webmanifest, folder icons, dan PETUNJUK.txt.
+2. Tunggu GitHub Pages selesai menerbitkan perubahan.
+3. Sambungkan perangkat ke internet, lalu buka kembali alamat aplikasi melalui Chrome.
+4. Tutup aplikasi PWA sepenuhnya, kemudian buka lagi. Jika belum berubah, buka alamat aplikasi di Chrome dan muat ulang halaman.
+5. Login sebagai ADMIN untuk melihat Profil Toko, Laporan, dan Pengaturan. Akun Karyawan memang tidak mendapat akses ke menu admin.
+
+CATATAN PENTING:
+- Data tersimpan lokal pada browser/perangkat ini (localStorage), tidak otomatis tersinkron ke HP atau tablet lain.
+- Mengganti file aplikasi tidak menghapus localStorage, tetapi selalu lakukan backup sebelum pembaruan besar.
+- Backup rutin melalui Pengaturan.
+- Foto produk/logo dibatasi 1,2 MB per foto.
+- Cetak 58mm menggunakan dialog cetak browser; kompatibilitas printer tergantung perangkat, browser, dan model printer.
+- Versi ini sudah diperiksa sintaks JavaScript, manifest, dan struktur paket. Tetap lakukan uji transaksi, backup/restore, dan printer langsung pada HP serta tablet sebelum dipakai sebagai sistem kasir utama.
